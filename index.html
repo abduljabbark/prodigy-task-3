@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping Gear Website | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">Abdul Jabbar</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">More Info</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">
+      <div class="content">
+        <div class="text">
+          <h1>Abdul Jabbar</h1>
+          <p>Front-end web developer  </p>
+        </div>
+        <a href="#services">More Info</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>More Info</h2>
+      <p>Explore more information about this.</p>
+      <ul class="cards">
+        <li class="card">
+          <img src="images/html.png" alt="img">
+          <h3>HTML</h3>
+          <p>HTML is the basic building block of a website. It organizes content like text, images, and buttons. Think of it as the framework or skeleton of a webpage.</p>
+        </li>
+        <li class="card">
+          <img src="images/css-3.png" alt="img">
+          <h3>CSS</h3>
+          <p>CSS makes the website look nice. It adds colors, styles, and layout to the content. It helps make the website look good on different devices like phones and computers.</p>
+        </li>
+        <li class="card">
+          <img src="images/bootstrap.png" alt="img">
+          <h3>bootstrap</h3>
+          <p>Bootstrap is a tool that gives you ready-made design templates like buttons and layouts. It helps you build websites faster and makes sure they look good on all screen sizes.</p>
+        </li>
+        <li class="card">
+          <img src="images/js.png" alt="img">
+          <h3>Java Script</h3>
+          <p>JavaScript makes a website interactive. It allows things like buttons to respond when clicked and enables more complex features like animations and pop-ups.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2>Our Portfolio</h2>
+      <p>Take a look at some of web pages.</p>
+      <ul class="cards">
+        <li class="card">
+          <img src="images/portfolio-1.png" alt="img">
+          <h3>Food Delivery Service</h3>
+
+        </li>
+        <li class="card">
+          <img src="images/portfolio-2.png" alt="img">
+          <h3>Personal Portfolio</h3>
+ 
+        </li>
+        <li class="card">
+          <img src="images/portfolio-3.png" alt="img">
+          <h3>Fresh Vegetables</h3>
+
+        </li>
+        <li class="card">
+          <img src="images/portfolio-4.png" alt="img">
+          <h3>Arsha Website</h3>
+  
+        </li>
+        <li class="card">
+          <img src="images/portfolio-5.png" alt="img">
+          <h3>Info Web Development</h3>
+        </li>
+        <li class="card">
+          <img src="images/portfolio-6.png" alt="img">
+          <h3>DialEats Delivery Service</h3>
+        </li>
+      </ul>
+    </section>
+
+  
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Reach out to us for any inquiries or feedback.</p>
+      <div class="row">
+        <div class="col information">
+          <div class="contact-details">
+            <p><i class="fas fa-map-marker-alt"></i>Sindh | Pakistan</p>
+            <p><i class="fas fa-envelope"></i> abdul*******@gamil.com</p>
+            <p><i class="fas fa-phone"></i> (92) 3*********</p>
+            <p><i class="fas fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+            <p><i class="fas fa-clock"></i> Saturday: 10:00 AM - 3:00 PM</p>
+            <p><i class="fas fa-clock "></i> Sunday: Closed</p>
+          </div>          
+        </div>
+        <div class="col form">
+          <form>
+            <input type="text" placeholder="Name*" required>
+            <input type="email" placeholder="Email*" required>
+            <textarea placeholder="Message*" required></textarea>
+            <button id="submit" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <span>Copyright © 2023 All Rights Reserved</span>
+       
+      </div>
+    </footer>
+
+  </body>
+</html>
